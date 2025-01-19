@@ -14,6 +14,7 @@ struct ToDoAppApp: App {
     
     var body: some Scene {
         WindowGroup {
+//            burada navigationView kullanmıs olsaydım parantez dısında navigationStyle kısmını stack ile belirtmem gerekecekti. Stack ile belirtmeseydim ipad gibi ekranlarda navigation yapısı ekranın yan tarafında sidebar seklınde gozukecektı
             NavigationStack
             {
                 ListView()
